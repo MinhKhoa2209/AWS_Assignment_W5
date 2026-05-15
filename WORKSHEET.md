@@ -33,8 +33,8 @@
 - Stack name: `dmk-go-gin`
 - HTTP access method: API Gateway HTTP API via SAM `HttpApi`
 - Build result: `sam build --use-container` passed and produced `.aws-sam/build/GinFunction/bootstrap`
-- Smoke test endpoint: pending deployment
-- Smoke test result: pending deployment
+- Smoke test endpoint: `https://exl1dzb081.execute-api.us-west-2.amazonaws.com/`
+- Smoke test result: passed for `/`, `/api/hello/Lan`, and `/api/echo`
 - Cold start: pending deployment
 
 ## Notes
