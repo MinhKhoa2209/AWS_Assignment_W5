@@ -10,6 +10,7 @@ I chose the `serverless-http` adapter because it matches the README's minimum-ch
 - The SAM template keeps the required HTTP API access method and only needs the handler value filled in.
 
 ## Smoke Test
+![API Gateway](api_gw.png)
 
 - API URL: `https://wffmj4daqd.execute-api.us-west-2.amazonaws.com/`
 - `GET /`: passed
