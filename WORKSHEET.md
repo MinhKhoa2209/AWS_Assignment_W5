@@ -8,7 +8,10 @@
 - HTTP access method: API Gateway HTTP API via SAM `HttpApi`
 - Smoke test endpoint: `https://wffmj4daqd.execute-api.us-west-2.amazonaws.com/`
 - Smoke test result: passed for `/`, `/api/hello/Lan`, and `/api/echo`
-- Cold start: not recorded in this file
+- Observed cold start: `273.01 ms`
+- Warm start duration: `3.69 ms`
+- Memory size: `512 MB`
+- Max memory used: `93 MB`
 
 ## Java Spring Boot
 
