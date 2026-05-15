@@ -35,7 +35,10 @@
 - Build result: `sam build --use-container` passed and produced `.aws-sam/build/GinFunction/bootstrap`
 - Smoke test endpoint: `https://exl1dzb081.execute-api.us-west-2.amazonaws.com/`
 - Smoke test result: passed for `/`, `/api/hello/Lan`, and `/api/echo`
-- Cold start: pending deployment
+- Observed cold start range: `92.15 ms` to `119.77 ms`
+- Representative cold start: `119.77 ms`
+- Memory size: `256 MB`
+- Max memory used: `30 MB`
 
 ## Notes
 
