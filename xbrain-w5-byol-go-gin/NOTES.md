@@ -10,6 +10,7 @@ I chose `aws-lambda-go-api-proxy/gin` because it matches the README's minimum-ch
 - The Gin adapter handles API Gateway HTTP API v2 events and forwards them to the existing router.
 
 ## Smoke Test
+![API Gateway](api_gateway.png)
 
 - API URL: `https://exl1dzb081.execute-api.us-west-2.amazonaws.com/`
 - `GET /`: passed

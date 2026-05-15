@@ -11,6 +11,7 @@ I chose `aws-serverless-java-container-springboot3`, the README's canonical Java
 - The SAM template keeps the required HTTP API access method and points the Lambda handler at the stream handler class.
 
 ## Smoke Test
+![API Gateway](api_gateway.png)
 
 - API URL: `https://rcd3dhjx0a.execute-api.us-west-2.amazonaws.com/`
 - `GET /`: passed
