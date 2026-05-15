@@ -1,0 +1,24 @@
+# Build outputs
+.aws-sam/
+target/
+dist/
+build/
+
+# Dependencies
+node_modules/
+
+# Local environment and credentials
+.env
+.env.*
+*.pem
+*.key
+credentials
+config
+
+# Logs and OS/editor files
+*.log
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
