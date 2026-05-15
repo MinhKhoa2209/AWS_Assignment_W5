@@ -1,7 +1,7 @@
 version = 0.1
 
 [default.deploy.parameters]
-stack_name = "byol-go-gin"
+stack_name = "dmk-go-gin"
 region = "us-west-2"
 confirm_changeset = false
 capabilities = "CAPABILITY_IAM"

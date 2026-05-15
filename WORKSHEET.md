@@ -26,6 +26,17 @@
 - Memory size: `1024 MB`
 - Max memory used: `183 MB`
 
+## Go Gin
+
+- Strategy: `aws-lambda-go-api-proxy/gin`
+- Lambda function name: `dmk-go-gin`
+- Stack name: `dmk-go-gin`
+- HTTP access method: API Gateway HTTP API via SAM `HttpApi`
+- Build result: `sam build --use-container` passed and produced `.aws-sam/build/GinFunction/bootstrap`
+- Smoke test endpoint: pending deployment
+- Smoke test result: pending deployment
+- Cold start: pending deployment
+
 ## Notes
 
 - AWS credentials are not stored in the repository.

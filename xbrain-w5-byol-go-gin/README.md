@@ -70,7 +70,7 @@ linux/arm64 binary) — that's what Lambda runs.
 
 ```bash
 export API=$(aws cloudformation describe-stacks \
-  --stack-name byol-go-gin --region us-west-2 \
+  --stack-name dmk-go-gin --region us-west-2 \
   --query 'Stacks[0].Outputs[?OutputKey==`ApiUrl`].OutputValue' --output text)
 
 curl $API
@@ -83,7 +83,7 @@ Responses MUST match the local versions byte-for-byte (same JSON keys).
 ## Step 5 — Measure cold start
 
 ```bash
-sam logs --stack-name byol-go-gin --region us-west-2 -t
+sam logs --stack-name dmk-go-gin --region us-west-2 -t
 ```
 
 Find the `REPORT` line. Go cold starts are typically **50–150 ms** —
@@ -92,7 +92,7 @@ the fastest of any mainstream Lambda runtime, ~10× faster than Python.
 ## Teardown
 
 ```bash
-sam delete --stack-name byol-go-gin --region us-west-2
+sam delete --stack-name dmk-go-gin --region us-west-2
 ```
 
 ## Common pitfalls

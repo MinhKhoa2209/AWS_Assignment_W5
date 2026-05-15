@@ -12,6 +12,6 @@ BYOL Lambda migration assignment for Node.js/Express, Java/Spring Boot, and Go/G
 
 - Node.js Express was adapted to Lambda using `serverless-http` and SAM HTTP API.
 - Java Spring Boot was adapted to Lambda using `aws-serverless-java-container-springboot3` and SAM HTTP API.
+- Go Gin was adapted to Lambda using `aws-lambda-go-api-proxy/gin` and SAM HTTP API.
 
 See each project's `NOTES.md` and `template.yaml` for strategy and handler details.
-
